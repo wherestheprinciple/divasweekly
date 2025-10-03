@@ -29,6 +29,11 @@
       color: black;
       text-decoration: none;
      }
+
+     .tagline { 
+      color: black;
+      font-size: 15px; 
+     }
     
 .navbar ul li {
   list-style: none;
@@ -120,4 +125,5 @@
       font-size: 14px;
       margin-top: 20px;
     }
+
  
