@@ -212,6 +212,10 @@
 
 }
 
+.tagline { 
+      color: black;
+      font-size: 15px; 
+     }
 
 
 .pre-btn,
@@ -280,4 +284,5 @@
   grid-column: span 2;
   margin-bottom: 10px;
 }
+
 
