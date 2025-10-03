@@ -1,0 +1,123 @@
+
+    /* Reset default margins/padding */
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Mulish", sans-serif;
+      line-height: 1.4;
+      background-color: white;
+      color: #000000;
+    }
+
+    header, nav, main, footer {
+      max-width: 1000px;   /* keeps content centered */
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background: url("divas_weekly_bg.png") no-repeat center/cover;
+      color: black;
+      text-align: center;
+      padding: 40px 20px;
+    }
+     a { 
+      color: black;
+      text-decoration: none;
+     }
+    
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #ff0dde;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+     nav {
+      background: black;
+      color: black;
+      text-align: center;
+    }
+
+
+    nav {
+      background: black;
+      color: black;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      gap: 20px;
+    }
+
+    main {
+      flex: 3;  /* main content takes more space */
+      background: white;
+      padding: 20px;
+      min-height: 300px;
+    }
+
+     img.image1 {
+     border: 5px solid black;
+     border-radius: 8px;
+     }
+
+      
+    aside {
+      flex: 1;  /* sidebar takes less space */
+      background: #f1f1f1;
+      padding: 20px;
+      min-height: 300px;
+    }
+
+    .headline_2 {
+     text-transform: uppercase;
+     font-size: large
+    }
+
+     p {
+     font-size: large
+     }
+
+    footer {
+      background: #000000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+ 
